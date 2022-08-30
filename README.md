@@ -37,7 +37,7 @@ Argumente qual linguagem, sistema gerenciador de banco de dados (SGBD), framewor
 - Versionamentos do projeto: 10% da nota.
 
 - Avaliação do código fonte: 60% da nota.
-- - 
+
 - Arguição: 30% da nota 
 
 ## Prazo final
