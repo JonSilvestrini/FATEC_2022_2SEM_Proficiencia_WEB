@@ -7,8 +7,8 @@
 ## Como Realizar esta avaliação ?
 
 1. Crie um fork deste repositório
-2. Na pasta "código", crie os códigos em PHP do projeto
-3. Na pasta "arguição", crie um único arquivo markdown (extensão .md)
+2. Na pasta "code", crie os códigos em PHP do projeto
+3. Na pasta "parecer", crie um único arquivo em formado PDF
 4. Envie um e-mail ao coordenador do curso quando terminar todo projeto.
 
 ## Etapa Código
