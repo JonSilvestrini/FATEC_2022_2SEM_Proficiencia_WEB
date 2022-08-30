@@ -13,7 +13,8 @@
 
 ## Etapa Código
 
-- Na pasta "code", crie um cadastro em PHP com as operações de um CRUD.
+- Na pasta "code", crie um cadastro em PHP com as operações de um CRUD. O tema do cadastro fica a seu critério. Necessário ter pelo menos dois campos o cadastro.
+
 - - Permitir Criar um registro
 - - Permitir Ler os registros cadastrados
 - - Permitir Atualizar o registro
@@ -38,3 +39,7 @@ Argumente qual linguagem, sistema gerenciador de banco de dados (SGBD), framewor
 - Avaliação do código fonte: 60% da nota.
 - - 
 - Arguição: 30% da nota 
+
+## Prazo final
+
+Serão considerados para fins de avaliação projetos que realizarem o fork e entregarem todos os códigos até o dia 16 de setembro de 2022.
