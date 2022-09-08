@@ -35,7 +35,7 @@ class Registro {
 				}
 				$conta++;
 			}
-			$sql .= " where codigo=$id";
+			$sql .= " where " . $this->tabela . "_id=" . $id;
 		}
 		try {
 			return self::$con->query($sql);
@@ -65,7 +65,7 @@ class Registro {
 	}
 	
 	public function delete($id){
-		$sql = "delete from " . $this->tabela . ' where codigo='.$id;
+		$sql = "delete from " . $this->tabela . ' where ' . $this->tabela . '_id='.$id;
 		try {
 			return self::$con->query($sql);
 		} catch (Exception $e) {
@@ -75,7 +75,7 @@ class Registro {
 	
 	public function find($id=NULL){
 		if ($id) {
-			$sql = "select * from ". $this->tabela .' where codigo='.$id;
+			$sql = "select * from ". $this->tabela .' where ' . $this->tabela . '_id='.$id;
 			$stmt= self::$con->prepare($sql);
 			$stmt->execute();
 			return $stmt->fetch();
